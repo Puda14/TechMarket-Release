@@ -20,7 +20,7 @@ exports.sendConfirmationEmail = (email, token) => {
     subject: "Confirm your TechMarket account",
     html: `<p>Hello,</p>
            <p>Please click on the link below to confirm your TechMarket account:</p>
-           <a href="${url}/api/confirm?token=${token}">Confirm Account</a>
+           <a href="${url}/confirm?token=${token}">Confirm Account</a>
            <p>If you did not request this, please ignore this email.</p>`,
   };
   transporter.sendMail(mailOptions, (error, info) => {
