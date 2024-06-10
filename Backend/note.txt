@@ -1,0 +1,3 @@
+mongodb+srv://pdathp14:Egh987ns!@cluster0.jl52fnc.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+
+mongodb+srv://pdathp14:Egh987ns!@cluster0.jl52fnc.mongodb.net/

@@ -1,0 +1,55 @@
+TechMarket
+Web bán hàng đồ điện tự
+
+Customer
+- Sign Up / Login
+- CRUD Hàng (trong giỏ hàng)
+- Tạo và xem đơn hàng (bấm mua)
+- Thanh toán (API: mô phỏng thanh toán)
+-cái đoạn xem đơn hàng có theer
+- Tìm kiếm hàng
+- Filter theo tiêu chí...
+
+Employee
+- CRUD các sản phẩm // tăng số lượng qu
+- trạng thái đơn hàng
+- chat ....///
+-
+
+Manager
+- dashboard (để quản lý  : )
+-
+- Quản lý tài khoản (customer,emloyee)
+
+- tính năng bổ xung lọc va tìm kiếm o các danh sách
+
+
+Giao diện:
+Customer
+- Sign Up / Login (Quên mật khẩu)
+- Homepage
+- Cart
+- Order
+<Đăng Đức>
+- Order Detail
+- Product Detail (Bình luận, đánh giá, giá, tên, des,...)
+- Thanh toán (Xem Stripe)
+- Quản lý tài khoản cá nhân
+<Tiến Đạt>
+
+Employee - <Tuấn Đạt>
+- Hiển thị các đơn hàng
+- Xem thông tin khách hàng
+- Xem chi tiết các đơn hàng
+- Xem chi tiết hàng
+
+<Phạm Đạt>
+Manager
+- Dashboard
+- xem các tài khoản
+- CRUD Hàng
+
+Admin
+- Xem các tài khoản > manager
+
+////
