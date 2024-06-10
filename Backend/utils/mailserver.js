@@ -10,8 +10,9 @@ const transporter = nodemailer.createTransport({
 });
 
 exports.sendConfirmationEmail = (email, token) => {
-  const PORT = process.env.PORT || 5000;
-  const url = `http://localhost:${PORT}`;
+  // const PORT = process.env.PORT || 5000;
+  // const url = `http://localhost:${PORT}`;
+  const url = process.env.SERVER_URL;
 
   const mailOptions = {
     from: `"TechMarket Support" <support@techmarket.com>`,
