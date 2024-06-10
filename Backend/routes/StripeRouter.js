@@ -201,14 +201,14 @@ router.post(
         .catch((err) => console.log(err.message));
 
 
-      // console.log(cartProductIds);
-      // const updatedCartItems = user.cart.filter(
-      //   (productId) => !cartProductIds.includes(String(productId))
-      // );
-      // console.log(updatedCartItems);
+      console.log(cartProductIds);
+      const updatedCartItems = user.cart.filter(
+        (productId) => !cartProductIds.includes(String(productId))
+      );
+      console.log(updatedCartItems);
 
-      // user.cart = updatedCartItems;
-      // await user.save();
+      user.cart = updatedCartItems;
+      await user.save();
     }
     // Return a 200 response to acknowledge receipt of the event
     res.send().end();
