@@ -107,8 +107,8 @@ router.post("/create-checkout-session", async (req, res) => {
         userId: userId,
         cartItems: JSON.stringify(cartItems.map((item) => ({ id: item.id }))),
       },
-      success_url: `${process.env.CLIENT_Checkout_URL}/checkout-success`,
-      cancel_url: `${process.env.CLIENT_Checkout_URL}`,
+      success_url: `https://6667e8a8bef6d2a85c6c601f--unrivaled-muffin-940a79.netlify.app/checkout-success`,
+      cancel_url: `https://6667e8a8bef6d2a85c6c601f--unrivaled-muffin-940a79.netlify.app/`,
     });
     res.send({ url: session.url });
   } catch (error) {
