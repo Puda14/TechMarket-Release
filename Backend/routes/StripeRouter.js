@@ -107,8 +107,8 @@ router.post("/create-checkout-session", async (req, res) => {
         userId: userId,
         cartItems: JSON.stringify(cartItems.map((item) => ({ id: item.id }))),
       },
-      success_url: `${process.env.CLIENT_URL}/checkout-success`,
-      cancel_url: `${process.env.CLIENT_URL}`,
+      success_url: `${process.env.CLIENT_Checkout_URL}/checkout-success`,
+      cancel_url: `${process.env.CLIENT_Checkout_URL}`,
     });
     res.send({ url: session.url });
   } catch (error) {
