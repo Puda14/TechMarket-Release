@@ -17,5 +17,5 @@ exports.confirmEmail = async (req, res) => {
   user.confirmationExpires = undefined;
   await user.save();
 
-  res.redirect("http://localhost:5173/confirmemail");
+  res.redirect("https://6667e8a8bef6d2a85c6c601f--unrivaled-muffin-940a79.netlify.app/confirmemail");
 };
